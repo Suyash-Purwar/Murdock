@@ -18,7 +18,7 @@ ul#id li,
 }
 
 .carousel > :nth-child(1) {
-    background-image: url("../images/slider_images/slider01.jpg");
+    background-image: url("images/slider_images/slider01.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
