@@ -1,0 +1,256 @@
+
+/* Style for disabling selection of word in carousel */
+ul#id li, 
+.nav-wrapper a[class=brand-logo],
+.small-caption,
+.big-caption,
+.caption-box-dialogue {
+    -webkit-user-select: none;
+    -moz-user-select: -moz-none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Styles for images used in slider */
+.carousel {
+    height: 100vh;
+    width: 100vw;
+}
+
+.carousel > :nth-child(1) {
+    background-image: url("../../Images/slider_images/slider01.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.carousel > :nth-child(2) {
+    background-image: url("../../Images/slider_images/slider02.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.carousel > :nth-child(3) {
+    background-image: url("../../Images/slider_images/slider03.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+/* Styles for text writtent over slideshow images */
+
+.caption{
+    color: white;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.4);
+    text-align:center;
+}
+
+.caption > div {
+    display: block;
+    margin: 0 auto;
+}
+
+.small-caption {
+    font-size: 40px;
+    font-family: 'Quicksand';
+    line-height: 1px;
+}
+
+.big-caption {
+    font-size: 100px;
+    font-family: Raleway;
+}
+
+.caption-box-dialogue {
+    top: 10px;
+    font-size: 30px;
+    font-family: 'Quicksand';
+}
+
+/* Styles for history section */
+.history-heading {
+    line-height: 0.5px;
+    font-size: 40px;
+    color: white;
+    font-family: 'Raleway';
+}
+
+.history-container {
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    margin: 0;
+    grid-gap: 0;
+}
+
+.history-right-part {
+    background-image: url("../../images/history_sec_img.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.history-left-part {
+    background-color: black;
+    padding: 20px;
+}
+
+.history-content {
+    color: white;
+    font-size: 16px;
+    font-family: 'Quicksand';
+}
+
+/* Style for services section */
+.services-container {
+    background-color: white;
+    padding: 20px 100px;
+}
+
+.services-heading {
+    font-size: 40px;
+    color: black;
+    line-height: 0.5px;
+    font-family: 'Raleway';
+    text-align: center;
+}
+
+.services-content-container {
+    display: grid;
+    grid-template-columns: repeat(3, 4fr);
+    grid-gap: 15px;
+    grid-template-areas: minmax(400px, auto);
+}
+
+.service-box-header {
+    text-align:center;
+    color: black;
+    font-size: 35px;
+    font-family: Raleway;
+}
+
+.service-box-content {
+    font-family: 'Quicksand';
+    font-size: 17px;
+    text-align: center;
+}
+
+.services-content-container > div > button {
+    margin: auto;
+    display: block;
+}
+
+.border-right {
+    border-right: 1px solid grey
+}
+
+.border-left {
+    border-left: 1px solid grey
+}
+
+/* Styles for  Our Team */
+.team-container {
+    background-color: black;
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+}
+
+.team-container-left-content {
+    padding: 0px 30px;
+    margin: 0 auto;
+    display: block;
+}
+
+.team-container-right-content {    
+    padding: 0 25px;
+    display:block;
+    margin: 0 auto;
+}
+
+.team-container-right-header {
+    text-align: center;
+    font-family: Quicksand;
+    font-size: 40px;
+    color: black;
+}
+
+.team-container-right-content {
+    text-align: center;
+    font-family: Raleway;
+    font-size: 17px;
+    color: black;
+    padding: 20px 0px;
+    justify-content: center;
+}
+
+.team-container-right-content > .our_team {
+    width: 70%;
+    height: 70%;
+}
+
+.team-container > div:nth-child(2) {
+    background-image: url('../../images/team-sec-img2.jpeg');   
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.team-container-left-content > button {
+    margin: auto;
+    display: block;
+}
+
+/* Styles for form in Ask Question */
+
+.form-container {
+    background-size: cover;
+    background-position: center;
+    background-image: url('../../images/form-background-images.jpg');
+}
+
+.form-container-header {
+    font-size: 40px;   
+    font-family: 'Quicksand';
+    text-align: center;
+}
+
+.form-container-overlay {
+    background-color: rgba(94, 55, 19, 0.411);
+    padding: 20px 100px;
+}
+
+.input-field .material-icons {
+    color: black !important;
+}
+
+.input-field label {
+    color: black;
+}
+
+.input-field input[type=text]:focus + label,
+.input-field input[type=email]:focus + label,
+.input-field textarea:focus + label {
+    font-size: 19px;
+    color: black !important;
+}
+
+.input-field input[type=text],
+.input-field input[type=email],
+.input-field textarea {
+    font-family: Raleway;
+    border-bottom: 1px solid black;
+}
+
+.input-field input:focus,
+.input-field textarea:focus {
+    font-size: 17px;
+    border-bottom: 1px solid #000 !important;
+    box-shadow: 0 1px 0 0 #000 !important;
+}
+
+input[type=submit] {
+    outline: none;
+}
+

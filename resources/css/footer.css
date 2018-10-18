@@ -1,0 +1,82 @@
+
+/* Styles for footer */
+footer.footer-container {
+    background: black;
+    color: white;
+    display: grid;
+    grid-template-columns:  repeat(12, 1fr);
+}
+
+hr#footer_hr {
+    width: 20px;
+    border-color: white;
+    float: left;
+}
+
+.footer-header {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    font-family: Quicksand;
+}
+
+.footer-content {
+    font-family: Raleway;
+    font-size: 15px;
+    color: white;
+}
+
+.footer-para {
+    grid-column: 2 / 6;
+}
+
+.footer-question {
+    text-align:center;
+    grid-column: 7 / 9;
+}
+
+.footer-murdock {
+    text-align: center;
+    grid-column: 10 / 12;
+}
+
+@media only screen and (max-width : 992px) {
+    /* Styles for footer */
+    .footer-header {
+        text-align:center;
+    }
+    
+    .footer-content {
+        text-align: center;
+    }
+    
+    hr#footer_hr {
+        float: none;
+    }
+    
+    .footer-para {
+        grid-column: 2 / 12;
+    }
+    
+    .footer-question {
+        text-align:center;
+        grid-column: 2 / 6;
+    }
+        
+    .footer-murdock {
+        text-align: center;
+        grid-column: 7 / 12;
+    }
+}
+
+@media only screen and (max-width : 460px) {
+    .footer-question {
+        text-align:center;
+        grid-column: 1 / 13;
+    }
+    
+    .footer-murdock {
+        text-align: center;
+        grid-column: 1 / 13;
+    }
+}

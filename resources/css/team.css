@@ -1,0 +1,146 @@
+.front-background-img {
+    background-image: url("../../images/Team/Team.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+}
+
+.front-background-grid {
+    background-color: rgba(190, 42, 42, 0.349);
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-auto-rows: minmax(100vh, auto);
+}
+
+.front-img-text {
+    grid-column: 4/10;
+    text-align: center;
+    color: white;
+}
+
+.front-img-heading {
+    font-size: 80px;
+    line-height: 1px;
+    color: white;
+    font-family: Quicksand;
+}
+
+.front-img-text {
+    font-size: 23px;
+    font-family: Raleway;
+}
+
+hr#front-img-heading_hr {
+    width: 120px;
+    border-color: white;
+}
+
+/* Styles for team conatiner */
+.team-container-title {
+    font-size: 45px;
+    font-family: Quicksand;
+    text-align: center;
+}
+
+.team-container-content {
+    text-align: center;
+    font-family: Raleway;
+    font-size: 20px;
+    color:black;
+    max-width: 960px;
+    margin: 0 auto;
+    bottom: 20px;
+    position: relative;
+}
+
+.team-container-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 4fr);
+    grid-auto-rows: 600px;
+}
+
+.team-container-grid > div {
+    width: 100%;
+    position: relative;
+}
+
+.team-container-grid > div > img {
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    position: relative;
+}
+
+.barber-rank {
+    text-align: center;
+}
+
+.barber-name {
+    line-height: 1px;
+    text-align:center;
+    font-family: Raleway;
+    font-size: 18px;
+}
+
+.team-container-grid > div {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.team-container-grid > div:nth-child(1) {
+    background-image: url("../../Images/Team/Aaron.jpg")
+}
+
+.team-container-grid > div:nth-child(2) {
+    background-image: url("../../Images/Team/Carl.jpg")
+}
+
+.team-container-grid > div:nth-child(3) {
+    background-image: url("../../Images/Team/Gwen-New-3.jpg")
+}
+
+.team-container-grid > div:nth-child(4) {
+    background-image: url("../../Images/Team/Miles-New.jpg")
+}
+
+.team-container-grid > div:nth-child(5) {
+    background-image: url("../../Images/Team/Charlie.jpg")
+}
+
+.team-container-grid > div:nth-child(6) {
+    background-image: url("../../Images/Team/Adam.jpg")
+}
+
+/* Styles for small screens */
+@media only screen and (max-width: 922px) {
+    .front-img-heading {
+        font-size: 40px;
+    }
+
+    .front-img-text {
+        grid-column: 2 / 12
+    }
+
+    .team-container-grid {
+        grid-template-columns: repeat(2, 6fr);
+        grid-auto-rows: 400px;
+    }
+}
+
+@media only screen and (max-width: 922px) {
+    .front-img-content {
+        font-size: 20px;
+    }  
+
+    .team-container-grid {
+        grid-template-columns: 13fr;
+        grid-auto-rows: 400px;
+    }
+
+    .team-container-content > div {
+        background-position: center bottom;
+    }
+}

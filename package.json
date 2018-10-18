@@ -1,0 +1,15 @@
+{
+  "name": "barber-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "Suyash Purwar",
+  "license": "MIT",
+  "homepage": "https://suyash-purwar.github.io/murdock",
+  "dependencies": {
+    "gh-pages": "^2.0.1"
+  }
+}

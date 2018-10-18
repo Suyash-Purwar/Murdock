@@ -1,0 +1,57 @@
+/* Styles for nav */
+a[href = "home.html"] {
+    margin-left: 10px;
+}
+
+li > a[href = "#"] {
+    font-family: Mina;
+    color: white;
+    font-size: 18px;
+    transition: .5s;
+}
+
+li > a[href = "#"]:hover {
+    background-color: transparent;
+    border-bottom: 2px solid white;
+}
+
+nav > .nav-wrapper {
+    margin: 10px;
+}
+
+nav {
+    box-shadow: 0 0 0 0 transparent;
+    z-index:3;
+    position: absolute;
+    background: transparent;
+}
+
+/* Styles for nav for medium and small sized screens */
+ul.side-nav {
+    background-color: black;
+}
+
+.side-nav-title {
+    border-bottom: 1px solid grey;
+    font-family: Raleway;
+    width: 100%;
+    text-align:center;
+}
+
+.side-nav-links {
+    top: 2px;
+    cursor: pointer;
+    position: relative;
+    font-family: Quicksand;
+    font-size: 16px;
+}
+
+[data-activates = "slide-out"] {
+    cursor: pointer;
+    background-color: transparent;
+    top: 10px;
+    left: 10px;
+    position: fixed;
+    z-index: 5;
+    color: white;
+}

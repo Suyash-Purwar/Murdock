@@ -1,0 +1,204 @@
+.hero-img-grid {
+    grid-auto-rows: minmax(100vh, auto);
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.hero-img-text-overlay {
+    text-align: center;
+    grid-column: 4 / 10;
+}
+
+.hero-img-text-heading {
+    font-family: Quicksand;
+    font-size: 80px;
+    color: white;
+    line-height: 1px;
+}
+
+.hero-img-text-content {
+    font-family: Raleway;
+    font-size: 23px;
+    color:white;
+}
+
+hr#hero-img-text-hr {
+    border-color: white;
+    width: 120px;
+}
+
+/* Styles for Shave/Trimming/Hair-Cutting section */
+
+.shave-heading,
+.hair-heading,
+.trimming-heading {
+    color: black;
+    font-size: 40px;
+    font-family: Quicksand;
+    text-align: center;
+}
+
+.shave-intro,
+.hair-intro,
+.trimming-intro {
+    color: black;
+    max-width: 570px;
+    display: block;
+    margin: 0 auto;
+    font-size: 19px;
+    text-align: center;
+}
+
+.products-container {
+    display: grid;
+    grid-template-columns: repeat(3, 4fr);
+    grid-auto-rows: minmax(300px, auto);
+    grid-gap: 10px;
+}
+
+.products-container > div {
+    display: block;
+    margin: auto;
+}
+
+.products-container div img {
+    width: 300px;
+}
+
+.prod-img-header {
+    text-align: center;
+    font-family: Raleway;
+    font-size: 18px;
+    color: black;
+    font-weight: bold
+}
+
+/* Styles for Ask Question */
+
+.form-container {
+    background-size: cover;
+    background-position: center;
+    background-image: url('../../images/form-background-images.jpg');
+}
+
+.form-container-header {
+    font-size: 40px;   
+    font-family: 'Quicksand';
+    text-align: center;
+}
+
+.form-container-overlay {
+    background-color: rgba(94, 55, 19, 0.411);
+    padding: 20px 100px;
+}
+
+.input-field .material-icons {
+    color: black !important;
+}
+
+.input-field label {
+    color: black;
+}
+
+.input-field input[type=text]:focus + label,
+.input-field input[type=email]:focus + label,
+.input-field textarea:focus + label {
+    font-size: 19px;
+    color: black !important;
+}
+
+.input-field input[type=text],
+.input-field input[type=email],
+.input-field textarea {
+    font-family: Raleway;
+    border-bottom: 1px solid black;
+}
+
+.input-field input:focus,
+.input-field textarea:focus {
+    font-size: 17px;
+    border-bottom: 1px solid #000 !important;
+    box-shadow: 0 1px 0 0 #000 !important;
+}
+
+input[type=submit] {
+    outline: none;
+}
+
+/* Styles for trimming/beard/hair text content */
+.trimming-text-container,
+.hair-text-container,
+.shave-text-container {
+    background-color: black;
+    padding: 30px 0px;
+}
+
+.trimming-text-conatiner-child,
+.hair-text-conatiner-child,
+.shave-text-container-child {
+    display: block;
+    max-width: 960px;
+    margin: auto;
+}
+
+
+/* Styles for medium sized screens */
+@media only screen and (max-width: 922px) {
+    .hero-img-text-overlay {
+        grid-column: 2 / 12;
+    }
+
+    .hero-img-text-heading {
+        font-size: 60px;
+    }
+
+    /* Styles for form */
+    .form-container-header {
+        font-size: 30px;
+    }
+    
+    .form-container-overlay {
+        padding: 5px 50px;
+    }
+
+    /* Styles for shave/trimming/hair container */
+    .shave-heading,
+    .hair-heading,
+    .trimming-heading {
+        font-size: 28px;
+    }
+
+    .products-container {
+        grid-template-columns: repeat(2, 6fr);
+    }
+
+    .products-container div img {
+        width: 200px;
+    }
+
+    .trimming-text-conatiner-child,
+    .hair-text-conatiner-child,
+    .shave-text-container-child {
+        text-align:center;
+        padding: 0px 10px;
+    }
+}
+
+/* Styles for small screens */
+@media only screen and (max-width: 460px) {
+    .hero-img-text-content {
+        font-size: 18px;
+    }
+
+    .form-container-header {
+        font-size: 23px;
+    }
+
+    .products-container div img {
+        width: 150px;
+    }
+
+    .hero-img-text-heading {
+        line-height: normal;
+    }
+}

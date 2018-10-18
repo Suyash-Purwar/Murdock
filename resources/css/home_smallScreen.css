@@ -1,0 +1,89 @@
+@media only screen and (max-width : 992px) {
+    /* Global Styles */
+    hr#heading_hr {
+        float: none;
+    }
+
+    /* Styles for text in Carousel */
+    .small-caption {
+        font-size: 30px;
+    }
+
+    .big-caption {
+        font-size: 60px;
+    }
+
+    .caption-box-dialogue {
+        top: 0px;
+        position: relative;
+        font-size: 20px;
+    }
+
+    /* Styles for History Section */
+    .history-container {
+        grid-template-columns: 12fr;
+    }
+
+    .history-left-part {
+        text-align: center;
+        padding: 10px;
+    }
+
+    .history-right-part {
+        height: 40vh;
+    }
+
+    .history-content {
+        font-size: 20px;
+    }
+
+    /* Styles for Our Servies */
+    .services-container {
+        padding: 10px 55px;
+    }
+
+    .services-content-container {
+        grid-template-columns: repeat(1, 12fr);
+        grid-gap:0px;
+    }
+
+    .services-content-container > div {
+        border: none;
+    }
+
+    /* Styles for Our Team */
+    .team-container {
+        grid-template-columns: 12fr;
+    }
+
+    .team-container-right-content {    
+        padding: 10px 10px;
+    }
+
+    .team-container-right-header {
+        font-size: 23px;
+    }
+    
+    .team-container-right-content > .our_team {
+        width: 70%;
+        height: 70%;
+    }
+
+
+}
+
+@media only screen and (max-width : 460px) {
+    .small-caption {
+        line-height: 60px;
+    }
+
+    .big-caption {
+        font-size: 70px;
+        line-height:70px;
+    }
+
+    .team-container-right-content > .our_team {
+        width: 90%;
+        height: 90%;
+    }
+}

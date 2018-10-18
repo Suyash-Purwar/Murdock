@@ -1,0 +1,13 @@
+
+h1 {text-align:center;font-family:comfortaa;font-weight:900;font-size:3em;color:#fff;text-shadow:0em 0.05em 0 rgba(0,0,0,0.35)}
+button {color:#454545;background:transparent;border-width:2px;border-style: solid;border-color: #454545;position:relative;margin:1em;display:inline-block;padding:0.5em 1em;transition:all 0.3s ease-in-out;text-align:center;
+font-weight:bold}
+button:before, button:after {content:'';display:block;position:absolute;border-color:#454545;box-sizing:border-box;border-style:solid;width:1em;height:1em;transition:all 0.3s ease-in-out}
+button:before {top:-6px;left:-6px;border-width:2px 0 0 2px;z-index:5;}
+button:after {bottom:-6px;right:-6px;border-width:0 2px 2px 0;}
+button:hover:before, button:hover:after {width:calc(100% + 12px);
+  height:calc(100% + 12px);border-color:#454545}
+button:hover {color:black;background-color:white;border-color:white}
+.panel {max-width:960px;text-align:center;position:relative;margin:auto;}
+
+
