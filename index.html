@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel = "stylesheet" href = "../externals/materialize/css/materialize.min.css">
-    <link rel = "stylesheet" href = "../css/nav.css">    
-    <link rel = "stylesheet" href = "../css/footer.css">
-    <link rel = "stylesheet" href = "../css/globals.css">
-    <link rel = "stylesheet" href = "../css/hair.css">
-    <link rel = "stylesheet" href = "../css/our-services-parts.css">
-    <link rel = "icon" href = "../../favicon/favicon.png" type = "image/x-icon">
+    <link rel = "stylesheet" href = "externals/materialize/css/materialize.min.css">
+    <link rel = "stylesheet" href = "css/home.css">
+    <link rel = "stylesheet" href = "css/home_smallScreen.css">
+    <link rel = "stylesheet" href = "css/nav.css">    
+    <link rel = "stylesheet" href = "css/footer.css">
+    <link rel = "stylesheet" href = "css/globals.css">
+    <link rel = "icon" href = "favicon/favicon.png" type = "image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond|Mina|Quicksand|Raleway|Slabo+27px" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -18,22 +18,16 @@
     <!--[if lt IE 9]>
 	    <script src="../externals/htmll5shiv-master/dist/html5shiv.min.js"></script>
     <![endif]-->
-    <title>Shop For Traditional Men's Hair | The Murdock</title>
+    <title>THE MURDOCK</title>
 </head>
 <body>
-
-    <!-- 
-
-    Some global styles which are common are in global.css.
-
-    -->
 
     <!-- Nav for large srcreen -->
     <!-- Nav for desktops -->
     <nav class = "hide-on-med-and-down">
         <div class = "nav-wrapper">
             <a href = "index.html" class = "brand-logo">
-                <img src = "../../images/logo-2.png">
+                <img src = "images/logo-2.png">
             </a>
             <ul class = "right" id = "nav-mobile">
                 <li><a href="#">Home</a></li>
@@ -44,15 +38,15 @@
             </ul>
         </div>
     </nav>
-        
+    
     <!-- Nav for small and medium sized screens -->
     <!-- For mobile phones and tablets -->
-    
+
     <!-- Button for opening side navigation -->
     <a href = "#" data-activates = "slide-out" class = "button-collapse hide-on-large-only">
         <i class = "material-icons">menu</i>
     </a>
-    
+
     <!-- Side nav --> 
     <!-- This nav is touch compatible -->
     <!-- Side nav is draggable -->
@@ -89,85 +83,124 @@
         </li>
     </ul>
 
-    <!-- Introduction image at front -->
-    <!-- This is the full page image -->
-    <div class = "hero-image-container">
-        <div class = "hero-image-container-overlay">
-            <div class = "hero-img-grid valign-wrapper">
-                <div class = "hero-img-text-overlay">
-                    <p class = "hero-img-text-heading">HAIR CUTTING</p>
-
-                    <hr id = "hero-img-text-hr">
-
-                    <p class = "hero-img-text-content">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil odit, aspernatur possimus quaerat officia blanditiis alias corporis dolorem ducimus, maxime perferendis. Assumenda ea eum earum possimus officiis nisi, illum ut itaque accusamus corrupti unde nam enim, sunt minus sint odio obcaecati. Eius autem nostrum dolorum quaerat esse sunt voluptates cum.</p>
+    <!-- Responsive Carousel -->
+    <div class = "carousel carousel-slider center" data-indicators = "true">
+        <div class = "carousel-item">
+            <div class="caption valign-wrapper">
+                <div>
+                    <div class = "small-caption">welcome to:</div>
+                    <div class = "big-caption">THE MURDOCK</div>
+                    
+                    <div class = "caption-box-dialogue">This is not just about your HAIRSTYLE</div>
                 </div>
             </div>
         </div>
-    </div>
-        
 
-    <!-- Our Products -->
-    <!-- Styles are in our-services-globals.css -->
-    <p class = "hair-heading">HAIR CUTTING</p>
-    <p class = "hair-intro">Our traditional shaving tools and products combine to fulfil the art of shaving and provide the closest wet shave you will ever have.</p>
-
-    <div class = "products-container">
-        <div>
-            <img src = "../../Images/hair_accessories/img1.jpg">
-            <p class = "prod-img-header">SEA SALT SPRAY</p>
+        <div class = "carousel-item center-align">
+            <div class="caption center valign-wrapper">
+                <div>
+                    <div class = "small-caption">welcome to:</div>
+                    <div class = "big-caption">THE MURDOCK</div>
+                          
+                    <div class = "caption-box-dialogue">This is where we introduce you to the FASHION</div>
+                </div>
+            </div>
         </div>
 
-        <div>
-            <img src = "../../Images/hair_accessories/img2.jpg">
-            <p class = "prod-img-header">QUINCE & OAKMOSS SHAMPOO</p>
-        </div>
+        <div class = "carousel-item">
+            <div class="caption valign-wrapper">
+                <div>
+                    <div class="small-caption">welcome to:</div>
+                    <div class="big-caption">THE MURDOCK</div>
 
-        <div>
-            <img src = "../../Images/hair_accessories/img3.jpg">
-            <p class = "prod-img-header">QUINCE & OAKMOSS CONDITIONER</p>
-        </div>
-
-        <div>
-            <img src = "../../Images/hair_accessories/img4.jpg">
-            <p class = "prod-img-header">MATT MUD</p>
-        </div>
-
-        <div>
-            <img src = "../../Images/hair_accessories/img5.jpg">
-            <p class = "prod-img-header">AFRO COMB</p>
-        </div>
-
-        <div>
-            <img src = "../../Images/hair_accessories/img6.jpg">
-            <p class = "prod-img-header">POCKET FOLDING COMB</p>
-        </div>
-    </div>
-
-    <!-- Men Trimming Beard image and slogan  -->
-    <!-- Styles are in our-services-globals -->
-    <div class = "hair-container">
-        <div class = "hair-container-cover">
-            <div class = "hair-container-grid valign-wrapper">
-                <div class = "hair-content-position">
-                    <p class = "hair-box-heading">ACHIEVE NATURAL HAIR STYLES WITH A BARBERSHOP FINISH AT HOME</p>
-                    <p class = "hair-content">Made in England, our hair treatment products work together to ensure that your hair and scalp are cleansed and nurtured, enhancing texture and providing natural body.</p>
+                    <div class="caption-box-dialogue">We know the style that suites YOU</div>
                 </div>
             </div>
         </div>
     </div>
 
-    <!-- Styles are in our-services-globals -->
-    <div class = "hair-text-container">
-        <div class = "hair-text-conatiner-child">
-            <p class = "hair-content" style = "color: white">Our Made in England, hair care collection for men, has been designed to provide gentlemen with the tools and products to create a barbershop finish at home. Lather your hair with our Quince & Oakmoss Shampoo which helps to improve body and fullness in the hair, followed by our Quince & Oakmoss Conditioner for intense shine and silkiness. For a style that is locked in place, try our Vintage Pomade. Enhancing the texture of the hair, this water-based hair wax will help to define your look and smooth your hair. Get playful with our range of hair moulding creams, shaping clay and textured putty. Experiment with texture and flexibility with our Hair Play moulding cream or go vintage with our non-greasy Texture Paste. Shop online and enjoy free worldwide delivery on all orders over £70.
-            
-            <br><br> 
 
-            Hair plays a huge role in your overall appearance and taking the time to style, smooth and secure your hair in place will help to make you look more sophisticated and refined. Recreate effortless summer waves with our natural Sea Salt Spray. Add volume, texture and a matte finish by applying our fresh citrus natural salt spray and add a splash of life back into limp and dull hair. Get creative and try some new styles and shapes with your hair using our online range of hair care products and tools. Perfect for a little indulgence or a gift for a loved one.</div>
+    <!-- History Content -->
+    <div class = "history-container">
+        <div class = "history-right-part"></div>
+        <div class = "history-left-part">
+            <p class = "history-heading">Our History</p>
+            <hr id="heading_hr">
+
+            <br>
+            <p class = "history-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam quis officia culpa vel? Tenetur architecto, cum itaque maxime totam nesciunt quam vitae in labore blanditiis soluta ipsum illo quod debitis, vero autem aliquam provident numquam inventore consectetur repudiandae atque accusantium minus. Rerum architecto necessitatibus officiis deserunt perferendis fugiat laborum suscipit quod quos modi sunt placeat distinctio, facere corrupti possimus, adipisci, ullam iure. Consectetur, excepturi accusamus sit qui aperiam dolorum itaque error dicta reprehenderit, temporibus, voluptatem saepe quam iure commodi sapiente numquam illum praesentium non. Sunt blanditiis quisquam ipsa atque totam reprehenderit expedita iure, culpa soluta quibusdam, earum amet sint officiis cumque nobis deleniti! Adipisci voluptas repellendus, autem at soluta veritatis rerum quia facilis explicabo quisquam quibusdam maiores expedita iure! Maiores!</p>
+        </div>
+    </div>
+
+    <!-- Our Services -->
+    <div class = "services-container">
+        <p class = "services-heading">Our Services</p>
+        <hr id = "heading_hr" style = "float:none; border-color: black">
+
+        <div class = "services-content-container">
+            <div class = "border-right">
+                <p class = "service-box-header">SHAVING</p>
+                <p class = "service-box-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias numquam fugiat, in voluptates sapiente ullam hic dicta quidem vero. Voluptatibus?</p>
+                <button class = "btn waves-effect waves-light black">
+                    <a href = "html/trimming.html">Take me!</a>
+                </button>
+            </div>
+
+            <br class = "hide-on-large-only">
+
+            <div class = "divider hide-on-large-only"></div>
+
+            <div>
+                <p class = "service-box-header">FACE & BODY</p>
+                <p class = "service-box-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias numquam fugiat, in voluptates sapiente ullam hic dicta quidem vero. Voluptatibus?</p>
+                <button class = "btn waves-effect waves-light black">
+                    <a href = "html/facebody.html">Take me!</a>
+                </button>
+            </div>
+
+            <br class = "hide-on-large-only">
+
+            <div class = "divider hide-on-large-only"></div>
+
+            <div class = "border-left">
+                <p class = "service-box-header">HAIR CUTTING</p>
+                <p class = "service-box-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias numquam fugiat, in voluptates sapiente ullam hic dicta quidem vero. Voluptatibus?</p>
+                <button class = "btn waves-effect waves-light black">
+                    <a href = "html/hair.html">Take me!</a></button>
+            </div>
+        </div>
+    </div>
+
+    <br><br>
+
+    <!-- Our Team -->
+    <div class = "team-container">
+        <div class = "valign-wrapper">
+            <div class = "team-container-right-content">
+                <img src = "images/Team/Mixed_4-min.jpg" class = "our_team">
+
+                <br>
+
+                <p class = "team-container-right-content" style = "color: white">--- See our extraordinary barbers ---</p>
+
+                <br>
+
+                <a href = "html/team.html"><button class = "btn white black-text waves-effect waves-black">Visit</button></a>
+            </div>
+        </div>
+
+        <div class = "valign-wrapper">
+            <div class = "team-container-left-content">
+                <p class = "team-container-right-header">Book a Barber.</p>
+                <p class = "team-container-right-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur non laborum consequatur veniam quidem rem enim, nostrum laudantium numquam omnis officiis quibusdam suscipit velit debitis cupiditate placeat molestiae. Aut, architecto!</p>
+                <br><br>
+                <button class = "btn black waves-effect waves-light">Book!!</button>
+            </div>
+        </div>
     </div>
 
     <!-- Any Question ? -->
-    <!-- Styles are in our-services-globals -->
+
     <div class="form-container">
         <div class = "form-container-overlay">
             <p class = "form-container-header">
@@ -206,64 +239,63 @@
                 </div>
             </div>
         </div>
-    </div>    
+    </div>
 
     <!-- Footer -->
-    <!-- Styles are in footer.css -->
     <footer class = "footer-container">
         <div class = "footer-para">
             <p class = "footer-header">The Murdock</p>
-    
+
             <hr id = "footer_hr">
-    
+
             <br>
-    
+
             <p class = "footer-content">We know everything there is to know about the art of barbering. When our clients walk out of the door looking sharp and feeling good, we've done our job and you’re ready to conquer the day. Our expert barbers created and curated a range of Murdock London products, kits and tools to let you take our barbershop experience home.</p>   
         </div>
-    
+
         <div class = "footer-question">
             <p class = "footer-header">Have a question ?</p>
-    
+
             <hr id = "footer_hr" style = "float: none">
-    
+
             <br>
-    
+
             <p class = "footer-content">Contact Us</p>
             <p class = "footer-content">Careers</p>
             <p class = "footer-content">Privacy & Cookies</p>
             <p class = "footer-content">Terms & Conditions</p>
         </div>
-    
+
         <div class = "footer-murdock">
             <p class = "footer-header">Murdock</p>
-    
+
             <hr id = "footer_hr" style = "float: none">
-    
+
             <br>
-    
+
             <p class = "footer-content">Barbershops</p>
             <p class = "footer-content">Products</p>
             <p class = "footer-content">Locations</p>
             <p class = "footer-content">Press</p>
             <p class = "footer-content">Stockists</p>            
         </div>
+
+            <div class = "fixed-action-btn vertical">
+                <a class = "btn-floating white btn-large">
+                    <i class = "fa fa-share-alt" style = "color:black"></i>
+                </a>
+
+                <ul>
+                    <li><a class = "btn-floating waves-effect waves-light facebook"><i class = "fa fa-facebook"></i></a></li>
+                    <li><a class = "btn-floating waves-effect waves-light google"><i class = "fa fa-google"></i></a></li>
+                    <li><a class = "btn-floating waves-effect waves-light twitter"><i class = "fa fa-twitter"></i></a></li>                                                                                                
+                </ul>
+            </div>
     <footer>
-
-
-    <!-- Sharing buttons -->
-    <!-- Styles are in globals.css -->
-    <div class = "fixed-action-btn vertical">
-        <a class = "btn-floating white btn-large">                    
-            <i class = "fa fa-share-alt" style = "color:black"></i>
-        </a>
     
-        <ul>
-            <li><a class = "btn-floating waves-effect waves-light facebook"><i class = "fa fa-facebook"></i></a></li>
-            <li><a class = "btn-floating waves-effect waves-light google"><i class = "fa fa-google"></i></a></li>
-            <li><a class = "btn-floating waves-effect waves-light twitter"><i class = "fa fa-twitter"></i></a></li> 
-        </ul>
-    </div>            
-<script src = "../externals/jquery/jquery-3.2.1.js"></script>
-<script src = "../externals/materialize/js/materialize.min.js"></script>
+    <script src="../externals/scrollreveal-master/dist/scrollreveal.min.js"></script>
+    <script src = "../externals/jquery/jquery-3.2.1.js"></script>
+    <script src = "../externals/materialize/js/materialize.min.js"></script>
+    <script src = "../js/home.js"></script>
 </body>
 </html>
