@@ -1,5 +1,5 @@
 .front-background-img {
-    background-image: url("../../images/Team/Team.jpg");
+    background-image: url("../images/Team/Team.jpg");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -91,27 +91,27 @@ hr#front-img-heading_hr {
 }
 
 .team-container-grid > div:nth-child(1) {
-    background-image: url("../../Images/Team/Aaron.jpg")
+    background-image: url("../images/Team/Aaron.jpg")
 }
 
 .team-container-grid > div:nth-child(2) {
-    background-image: url("../../Images/Team/Carl.jpg")
+    background-image: url("../images/Team/Carl.jpg")
 }
 
 .team-container-grid > div:nth-child(3) {
-    background-image: url("../../Images/Team/Gwen-New-3.jpg")
+    background-image: url("../images/Team/Gwen-New-3.jpg")
 }
 
 .team-container-grid > div:nth-child(4) {
-    background-image: url("../../Images/Team/Miles-New.jpg")
+    background-image: url("../images/Team/Miles-New.jpg")
 }
 
 .team-container-grid > div:nth-child(5) {
-    background-image: url("../../Images/Team/Charlie.jpg")
+    background-image: url("../images/Team/Charlie.jpg")
 }
 
 .team-container-grid > div:nth-child(6) {
-    background-image: url("../../Images/Team/Adam.jpg")
+    background-image: url("../images/Team/Adam.jpg")
 }
 
 /* Styles for small screens */

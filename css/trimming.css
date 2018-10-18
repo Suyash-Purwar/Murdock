@@ -1,5 +1,5 @@
 .hero-image-container {
-    background-image: url('../../images/trimming_accessories/trimming.jpg');
+    background-image: url('../images/trimming_accessories/trimming.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -17,7 +17,7 @@
 /* Styles for trimming-container */
 
 .trimming-container {
-    background-image: url('../../images/trimming_accessories/men-beard-trimming.jpg');
+    background-image: url('../images/trimming_accessories/men-beard-trimming.jpg');
     background-size: cover;
     background-position: left center;
     background-repeat: no-repeat;
