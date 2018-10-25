@@ -1,5 +1,5 @@
 .hero-image-container {
-    background-image: url('../images/face-body/facebody.png');
+    background-image: url('../Images/face-body/facebody.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -17,7 +17,7 @@
 /* Styles for trimming-container */
 
 .trimming-container {
-    background-image: url('../images/face-body/facebody2.jpg');
+    background-image: url('../Images/face-body/facebody2.jpg');
     background-size: cover;
     background-position: left top;
     background-repeat: no-repeat;

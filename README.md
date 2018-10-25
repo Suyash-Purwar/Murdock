@@ -7,10 +7,6 @@
 * #### CSS
 * #### JavaScript
 * #### MaterializeCSS
-* #### JQuery
-* #### NodeJS
-* #### ExpressJS
-* #### Pusher API
 
 ### Features
 * ##### Bold UI
