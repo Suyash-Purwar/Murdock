@@ -1,6 +1,6 @@
 
 /* Style for disabling selection of word in carousel */
-ul#id li, 
+ul#id li,
 .nav-wrapper a[class=brand-logo],
 .small-caption,
 .big-caption,
@@ -163,7 +163,7 @@ ul#id li,
     display: block;
 }
 
-.team-container-right-content {    
+.team-container-right-content {
     padding: 0 25px;
     display:block;
     margin: 0 auto;
@@ -191,7 +191,7 @@ ul#id li,
 }
 
 .team-container > div:nth-child(2) {
-    background-image: url('Iimages/team-sec-img2.jpeg');   
+    background-image: url('Iimages/team-sec-img2.jpeg');
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -211,7 +211,7 @@ ul#id li,
 }
 
 .form-container-header {
-    font-size: 40px;   
+    font-size: 40px;
     font-family: 'Quicksand';
     text-align: center;
 }
@@ -253,4 +253,3 @@ ul#id li,
 input[type=submit] {
     outline: none;
 }
-
