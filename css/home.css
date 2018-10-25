@@ -18,21 +18,21 @@ ul#id li,
 }
 
 .carousel > :nth-child(1) {
-    background-image: url("../images/slider_images/slider01.jpg");
+    background-image: url("../Images/slider_images/slider01.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
 }
 
 .carousel > :nth-child(2) {
-    background-image: url("../images/slider_images/slider02.jpg");
+    background-image: url("../Images/slider_images/slider02.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
 }
 
 .carousel > :nth-child(3) {
-    background-image: url("../images/slider_images/slider03.jpg");
+    background-image: url("../Images/slider_images/slider03.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -86,7 +86,7 @@ ul#id li,
 }
 
 .history-right-part {
-    background-image: url("../images/history_sec_img.jpg");
+    background-image: url("../Images/history_sec_img.jpg");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -191,7 +191,7 @@ ul#id li,
 }
 
 .team-container > div:nth-child(2) {
-    background-image: url('../images/team-sec-img2.jpeg');   
+    background-image: url('..Iimages/team-sec-img2.jpeg');   
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -207,7 +207,7 @@ ul#id li,
 .form-container {
     background-size: cover;
     background-position: center;
-    background-image: url('../images/form-background-images.jpg');
+    background-image: url('../Images/form-background-images.jpg');
 }
 
 .form-container-header {
