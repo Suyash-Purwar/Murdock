@@ -18,21 +18,21 @@ ul#id li,
 }
 
 .carousel > :nth-child(1) {
-    background-image: url("Images/slider_images/slider01.jpg");
+    background-image: url("../Images/slider_images/slider01.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
 }
 
 .carousel > :nth-child(2) {
-    background-image: url("Images/slider_images/slider02.jpg");
+    background-image: url("../Images/slider_images/slider02.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
 }
 
 .carousel > :nth-child(3) {
-    background-image: url("Images/slider_images/slider03.jpg");
+    background-image: url("../Images/slider_images/slider03.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
