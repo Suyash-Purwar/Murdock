@@ -1,8 +1,8 @@
 # Barber Shop Website Template
 
-##### Barber Shop website template with bold and impressive UI. This template comes with smooth animations. 
+##### Barber Shop website template with bold UI. 
 
-### Tech Stuff
+### Languages & Frameworks used
 * #### HTML
 * #### CSS
 * #### JavaScript
@@ -11,6 +11,4 @@
 ### Features
 * ##### Bold UI
 * ##### Smooth Animations
-* ##### Comes with black and white theme
-
-###### This website is under construction.
+* ##### Black and white theme
